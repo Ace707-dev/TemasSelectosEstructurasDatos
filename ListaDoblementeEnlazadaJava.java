@@ -131,7 +131,7 @@ public class ListaDoblementeEnlazadaJava{
             Scanner sc = new Scanner(System.in);
             ListaDoblementeEnlazadaJava lista = new ListaDoblementeEnlazadaJava();
             LimpiarConsola();
-            System.out.println("Lista vacía: " + lista.estaVacia());
+            System.out.println("Lista vacía: " + (lista.estaVacia() ? "Sí" : "No"));
             lista.mostrarListaInicioFin();
             sc.nextLine();
             LimpiarConsola();
